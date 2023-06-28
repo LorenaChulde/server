@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ItemsModule } from './items/items.module';
 import { VentasModule } from './modules/ventas/ventas.module';
-import { VentasService } from './modules/ventas/services/ventas.service';
+import { VentasService } from './modules/ventas/services/products.service';
 
 @Module({
   imports: [ItemsModule, VentasModule],

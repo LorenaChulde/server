@@ -16,6 +16,39 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+    "@ventas/controllers": [
+        "./src/modules/ventas/controllers"
+      ],
+    "@ventas/entities": [
+        "./src/modules/ventas/entities"
+      ],
+    "@ventas/dtos": [
+        "./src/modules/ventas/dtos"
+      ],
+    "@ventas/decorators": [
+        "./src/modules/ventas/decorators"
+      ],
+      "@ventas/enums": [
+        "./src/modules/ventas/enums"
+      ],
+      "@ventas/models": [
+        "./src/modules/ventas/models"
+      ],
+      "@ventas/modules": [
+        "./src/modules/ventas/modules"
+      ],
+      "@ventas/providers": [
+        "./src/modules/ventas/providers"
+      ],
+      "@ventas/services": [
+        "./src/modules/ventas/services"
+      ],
+      "@shared/models": [
+        "./src/shared/models"
+      ],
+
+    }
   }
 }

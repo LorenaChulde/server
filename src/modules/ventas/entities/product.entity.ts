@@ -65,7 +65,7 @@ export class ProductEntity {
             nullable:true,
             comment: 'imagen del producto',
         })
-        imagesAt:string;
+        imageAt:string;
 
         @Column('varchar', {
             name:'category',
